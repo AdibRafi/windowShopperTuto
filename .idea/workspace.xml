@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="305a9692-7c94-4751-9252-487676acf10a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/window-shopper/Assets.xcassets/windowShopperBG.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window-shopper/Assets.xcassets/windowShopperBG.imageset/windowShopperBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window-shopper/Assets.xcassets/windowShopperBG.imageset/windowShopperBG@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window-shopper/Assets.xcassets/windowShopperBG.imageset/windowShopperBG@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window-shopper/Assets.xcassets/windowShopperIcon.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window-shopper/Assets.xcassets/windowShopperIcon.imageset/windowShopperIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window-shopper/Assets.xcassets/windowShopperIcon.imageset/windowShopperIcon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window-shopper/Assets.xcassets/windowShopperIcon.imageset/windowShopperIcon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window-shopper/Model/Wage.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window-shopper/Views/CurrencyTextField.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/window-shopper.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/window-shopper.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/window-shopper.xcodeproj/xcuserdata/adibrafi.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/window-shopper.xcodeproj/xcuserdata/adibrafi.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/window-shopper/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/window-shopper/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/window-shopper/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/window-shopper/Controller/MainVC.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/window-shopperTests/window_shopperTests.swift" beforeDir="false" afterPath="$PROJECT_DIR$/window-shopperTests/window_shopperTests.swift" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_5C3315FD-E98D-4006-AE6E-F185A5944DA3" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="21fvOuPvchqsDtNE7fp3uv5h2k8" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="window-shopper" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="window-shopper" TARGET_NAME="window-shopper" CONFIG_NAME="Debug" SCHEME_NAME="window-shopper" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="window-shopper" RUN_TARGET_NAME="window-shopper" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="305a9692-7c94-4751-9252-487676acf10a" name="Changes" comment="" />
+      <created>1638344927740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638344927740</updated>
+      <workItem from="1638344929545" duration="42000" />
+      <workItem from="1638345044330" duration="385000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
