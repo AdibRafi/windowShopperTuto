@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D000A45E27548FA50057A82E /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D000A45D27548FA50057A82E /* Wage.swift */; };
+		D000A45F275490E00057A82E /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D000A45D27548FA50057A82E /* Wage.swift */; };
 		D04D139027507BBA000FA6B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D138F27507BBA000FA6B4 /* AppDelegate.swift */; };
 		D04D139227507BBA000FA6B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D139127507BBA000FA6B4 /* SceneDelegate.swift */; };
-		D04D139427507BBA000FA6B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D139327507BBA000FA6B4 /* ViewController.swift */; };
+		D04D139427507BBA000FA6B4 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D139327507BBA000FA6B4 /* MainVC.swift */; };
 		D04D139727507BBA000FA6B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04D139527507BBA000FA6B4 /* Main.storyboard */; };
 		D04D139927507BBC000FA6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04D139827507BBC000FA6B4 /* Assets.xcassets */; };
 		D04D139C27507BBC000FA6B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04D139A27507BBC000FA6B4 /* LaunchScreen.storyboard */; };
 		D04D13A727507BBC000FA6B4 /* window_shopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D13A627507BBC000FA6B4 /* window_shopperTests.swift */; };
 		D04D13B127507BBC000FA6B4 /* window_shopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D13B027507BBC000FA6B4 /* window_shopperUITests.swift */; };
 		D04D13B327507BBC000FA6B4 /* window_shopperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D13B227507BBC000FA6B4 /* window_shopperUITestsLaunchTests.swift */; };
+		D04D13C227507E8A000FA6B4 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D13C127507E8A000FA6B4 /* CurrencyTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D000A45D27548FA50057A82E /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 		D04D138C27507BBA000FA6B4 /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04D138F27507BBA000FA6B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D04D139127507BBA000FA6B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D04D139327507BBA000FA6B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D04D139327507BBA000FA6B4 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		D04D139627507BBA000FA6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D04D139827507BBC000FA6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D04D139B27507BBC000FA6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,7 @@
 		D04D13AC27507BBC000FA6B4 /* window-shopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "window-shopperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04D13B027507BBC000FA6B4 /* window_shopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = window_shopperUITests.swift; sourceTree = "<group>"; };
 		D04D13B227507BBC000FA6B4 /* window_shopperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = window_shopperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D04D13C127507E8A000FA6B4 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D000A45C27548F950057A82E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D000A45D27548FA50057A82E /* Wage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D04D138327507BBA000FA6B4 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +112,11 @@
 		D04D138E27507BBA000FA6B4 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				D000A45C27548F950057A82E /* Model */,
+				D04D13C027507E56000FA6B4 /* Views */,
+				D04D13BF27507CFC000FA6B4 /* Controller */,
 				D04D138F27507BBA000FA6B4 /* AppDelegate.swift */,
 				D04D139127507BBA000FA6B4 /* SceneDelegate.swift */,
-				D04D139327507BBA000FA6B4 /* ViewController.swift */,
 				D04D139527507BBA000FA6B4 /* Main.storyboard */,
 				D04D139827507BBC000FA6B4 /* Assets.xcassets */,
 				D04D139A27507BBC000FA6B4 /* LaunchScreen.storyboard */,
@@ -125,6 +140,22 @@
 				D04D13B227507BBC000FA6B4 /* window_shopperUITestsLaunchTests.swift */,
 			);
 			path = "window-shopperUITests";
+			sourceTree = "<group>";
+		};
+		D04D13BF27507CFC000FA6B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D04D139327507BBA000FA6B4 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D04D13C027507E56000FA6B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D04D13C127507E8A000FA6B4 /* CurrencyTextField.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D04D139427507BBA000FA6B4 /* ViewController.swift in Sources */,
+				D04D139427507BBA000FA6B4 /* MainVC.swift in Sources */,
 				D04D139027507BBA000FA6B4 /* AppDelegate.swift in Sources */,
+				D000A45E27548FA50057A82E /* Wage.swift in Sources */,
+				D04D13C227507E8A000FA6B4 /* CurrencyTextField.swift in Sources */,
 				D04D139227507BBA000FA6B4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D04D13A727507BBC000FA6B4 /* window_shopperTests.swift in Sources */,
+				D000A45F275490E00057A82E /* Wage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YFU8GUH5F5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "window-shopper/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,6 +501,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YFU8GUH5F5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "window-shopper/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -491,8 +527,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YFU8GUH5F5;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -515,8 +553,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YFU8GUH5F5;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
